@@ -3,8 +3,9 @@ import UseProducts from "../../Hooks/UseProducts";
 import Card from "./Card";
 
 function Products() {
-  const { data } = UseProducts();
+  let { data } = UseProducts();
   console.log(data);
+  data = [];
   return (
     <div className="products-container">
       {data.length != 0 ? (
