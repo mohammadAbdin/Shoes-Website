@@ -1,5 +1,5 @@
-// src/Api/HttpRequest.js
-const apiUrl = import.meta.env.VITE_API_URL;
+// const apiUrl = import.meta.env.VITE_API_URL;
+const apiUrl = "https://6666adf4a2f8516ff7a45d07.mockapi.io/users";
 import axios from "axios";
 
 export const getAllShoes = async () => {

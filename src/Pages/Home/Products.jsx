@@ -5,7 +5,7 @@ import Card from "./Card";
 function Products() {
   let { data } = UseProducts();
   console.log(data);
-  data = [];
+  // data = [];
   return (
     <div className="products-container">
       {data.length != 0 ? (
