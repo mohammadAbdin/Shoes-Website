@@ -1,0 +1,147 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #FDE5D4;
+  background-color: #FDE5D4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0px 0px;
+  /* padding: 2rem; */
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px 50px;
+}
+
+:root {
+  --primary-background: #973131;
+  --primary-texts: #F5E7B2;
+  --primary-cards: #F9D689;
+  --secondary-color: #E0A75E;
+}
+
+nav {
+  background-color: var(--primary-background);
+  position: relative;
+  width: 100vw;
+  left: -50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.nav-container {
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.nav-container li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-texts);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-container li button {
+  background-color: var(--primary-texts);
+  color: var(--primary-background);
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: var(--secondary-color);
+  margin-top: 100px;
+  width: 500px;
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-texts);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form input {
+  background-color: var(--primary-texts);
+  color: var(--primary-background);
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-container form button {
+  background-color: var(--primary-texts);
+  color: var(--primary-background);
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.peer {
+  width: 300px;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 80%;
+  margin-bottom: 50px;
+}
+
+.shoe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  /* margin-left: 100px; */
+  width: 90vw;
+
+}
+
+.spinner {
+  color: #973131;
+}
